@@ -2,7 +2,7 @@
 A few Minecraft related things for anyone to use. Everything here is for version 1.12.2.
 
 # Files
-command-creations.txt - A few random commands to spice up your world.
+command-creations.txt - A few random commands to spice up your world. They must all be used on a repeating command block, always active.
 
 enchantment-ids.txt - A list of all enchantment ID's in 1.12.2. Also includes ones from the Trident mod.
 
