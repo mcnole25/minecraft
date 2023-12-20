@@ -1,8 +1,3 @@
-// Introduction \\
-A text file reserved here for cool Minecraft command creations.
-They must all be ran on repeating command blocks w/ "Always Active" enabled.
-
-// List of Commands \\
 Better Mining
 /execute @e[type=item] ~ ~ ~ setblock ~ ~1 ~ air 0 destroy
 
