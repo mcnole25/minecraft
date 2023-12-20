@@ -1,0 +1,34 @@
+00 | Protection
+01 | Fire Protection
+02 | Feather Falling
+03 | Blast Protection
+04 | Projectile Protection
+05 | Respiration
+06 | Aqua Affinity
+07 | Thorns
+08 | Depth Strider
+09 | Frost Walker
+10 | Curse of Binding
+11 | Loyalty
+12 | Impaling
+13 | Riptide
+14 | Channeling
+16 | Sharpness
+17 | Smite
+18 | Bane of Arthropods
+19 | Knockback
+20 | Fire Aspect
+21 | Looting
+22 | Sweeping Edge
+32 | Efficiency
+33 | Silk Touch
+34 | Unbreaking
+35 | Fortune
+48 | Power
+49 | Punch
+50 | Flame
+51 | Infinity
+61 | Luck of the Sea
+62 | Lure
+70 | Mending
+71 | Curse of Vanishing

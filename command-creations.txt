@@ -1,0 +1,28 @@
+// Introduction \\
+A text file reserved here for cool Minecraft command creations.
+They must all be ran on repeating command blocks w/ "Always Active" enabled.
+
+// List of Commands \\
+Better Mining
+/execute @e[type=item] ~ ~ ~ setblock ~ ~1 ~ air 0 destroy
+
+Conduit Effect Backport
+/effect @a[r=32] regeneration 10 0 true
+
+Deadly Grass
+/execute @a ~ ~ ~ detect ~ ~-1 ~ grass 0 effect @a instant_damage 1 0 true
+
+Ender Pearl Ride
+/execute @e[type=ender_pearl] ~ ~ ~ tp @p @s
+
+Infinitely Flowing Water
+/execute @a ~ ~ ~ fill ~-10 ~-10 ~-10 ~10 ~10 ~10 water 0 replace flowing_water
+
+Snow Layer Flying
+/execute @a ~ ~ ~ setblock ~ ~ ~ snow_layer 0 keep
+
+Sparkling Players
+/execute @a ~ ~ ~ particle fireworksSpark ~ ~1 ~ 0 0.5 0 0.1 1 normal @a
+
+Upside Down Gravity
+/effect @e[name=Dinnerbone] levitation 10 10 true
