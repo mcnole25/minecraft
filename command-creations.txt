@@ -1,23 +1,19 @@
-Better Mining
-/execute @e[type=item] ~ ~ ~ setblock ~ ~1 ~ air 0 destroy
+Better Mining -- /execute @e[type=item] ~ ~ ~ setblock ~ ~1 ~ air 0 destroy
 
-Conduit Effect Backport
-/effect @a[r=32] regeneration 10 0 true
+Conduit Effect Backport -- /effect @a[r=32] regeneration 1 0 true
 
-Deadly Grass
-/execute @a ~ ~ ~ detect ~ ~-1 ~ grass 0 effect @a instant_damage 1 0 true
+Creative Instakill -- /effect @a[m=1] strength 1 255 true
 
-Ender Pearl Ride
-/execute @e[type=ender_pearl] ~ ~ ~ tp @p @s
+Deadly Grass -- /execute @a ~ ~ ~ detect ~ ~-1 ~ grass 0 effect @a instant_damage 1 0 true
 
-Infinitely Flowing Water
-/execute @a ~ ~ ~ fill ~-10 ~-10 ~-10 ~10 ~10 ~10 water 0 replace flowing_water
+Ender Pearl Ride -- /execute @e[type=ender_pearl] ~ ~ ~ tp @p @s
 
-Snow Layer Flying
-/execute @a ~ ~ ~ setblock ~ ~ ~ snow_layer 0 keep
+Ice Instantly Melts -- /execute @a ~ ~ ~ fill ~-10 ~-10 ~-10 ~10 ~10 ~10 water 0 replace ice
 
-Sparkling Players
-/execute @a ~ ~ ~ particle fireworksSpark ~ ~1 ~ 0 0.5 0 0.1 1 normal @a
+Infinitely Flowing Water -- /execute @a ~ ~ ~ fill ~-10 ~-10 ~-10 ~10 ~10 ~10 water 0 replace flowing_water
 
-Upside Down Gravity
-/effect @e[name=Dinnerbone] levitation 10 10 true
+Snow Layer Flying -- /execute @a ~ ~ ~ setblock ~ ~ ~ snow_layer 0 keep
+
+Sparkling Players -- /execute @a ~ ~ ~ particle fireworksSpark ~ ~1 ~ 0 0.5 0 0.1 1 normal @a
+
+Upside Down Gravity -- /effect @e[name=Dinnerbone] levitation 1 10 true
