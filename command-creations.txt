@@ -12,7 +12,7 @@ Ice Instantly Melts -- /execute @a ~ ~ ~ fill ~-10 ~-10 ~-10 ~10 ~10 ~10 water 0
 
 Infinitely Flowing Water -- /execute @a ~ ~ ~ fill ~-10 ~-10 ~-10 ~10 ~10 ~10 water 0 replace flowing_water
 
-Snow Layer Flying -- /execute @a ~ ~ ~ setblock ~ ~ ~ snow_layer 0 keep
+Snow Layer Flying -- /execute @a[m=0] ~ ~ ~ setblock ~ ~ ~ snow_layer 0 keep
 
 Sparkling Players -- /execute @a ~ ~ ~ particle fireworksSpark ~ ~1 ~ 0 0.5 0 0.1 1 normal @a
 
