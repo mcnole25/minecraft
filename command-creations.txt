@@ -4,7 +4,7 @@ Conduit Effect Backport -- /effect @a[r=32] regeneration 1 0 true
 
 Creative Instakill -- /effect @a[m=1] strength 1 255 true
 
-Deadly Grass -- /execute @a ~ ~ ~ detect ~ ~-1 ~ grass 0 effect @a instant_damage 1 0 true
+Deadly Grass -- /execute @a ~ ~ ~ detect ~ ~-1 ~ grass 0 effect @p instant_damage 1 0 true
 
 Ender Pearl Ride -- /execute @e[type=ender_pearl] ~ ~ ~ tp @p @s
 
